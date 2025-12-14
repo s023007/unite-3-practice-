@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>الوحدة الثالثة | المتتاليات والمتسلسلات</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+  font-family: Tahoma, Arial;
+  background:#f5f7fb;
+  margin:0;
+  line-height:2;
+}
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:15px;
+}
+header{
+  background:#ffffff;
+  border-radius:14px;
+  padding:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+h1{margin:0;font-size:22px}
+.teacher{color:#0f172a;font-size:14px;margin-top:6px}
+.page{
+  background:#fff;
+  margin-top:18px;
+  border-radius:14px;
+  padding:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,.07);
+}
+.page h2{
+  margin-top:0;
+  border-bottom:2px solid #e5e7eb;
+  padding-bottom:6px;
+}
+.q{
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  padding:12px;
+  margin-top:12px;
+}
+.q b{font-size:16px}
+.box{
+  background:#eef2ff;
+  border:1px solid #c7d2fe;
+  border-radius:10px;
+  padding:10px;
+  margin-top:8px;
+}
+.box.green{
+  background:#ecfdf5;
+  border-color:#bbf7d0;
+}
+.note{
+  background:#fff7ed;
+  border:1px solid #fed7aa;
+  border-radius:10px;
+  padding:10px;
+  margin-top:8px;
+}
+.answer{
+  font-weight:bold;
+  margin-top:6px;
+}
+button{
+  background:#fff;
+  border:1px dashed #cbd5f5;
+  border-radius:20px;
+  padding:6px 12px;
+  cursor:pointer;
+  font-size:13px;
+}
+.law{display:none;margin-top:6px}
+</style>
+
+<script>
+function toggleLaw(id){
+  const el=document.getElementById(id);
+  el.style.display = el.style.display==="none" ? "block" : "none";
+}
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+<header>
+<h1>الوحدة الثالثة – المتتاليات والمتسلسلات</h1>
+<div class="teacher">إعداد الأستاذ: زايد الرواحي</div>
+</header>
+
+<!-- ===================================================== -->
+<!-- صفحة 19 -->
+<div class="page">
+<h2>📄 صفحة 19</h2>
+
+<div class="q">
+<b>1) الحد النوني لمتتالية حسابية: حₙ = 4ن + 5</b>
+<button onclick="toggleLaw('l1')">قانون السؤال</button>
+
+<div id="l1" class="law note">
+<b>قانون:</b> أساس المتتالية الحسابية = الفرق بين حدين متتاليين
+</div>
+
+<div class="box green">
+<b>الحل السريع:</b><br>
+معامل (ن) في الحد العام = أساس المتتالية
+</div>
+
+<div class="answer">الأساس = 4</div>
+</div>
+
+<div class="q">
+<b>2) المتتالية: 6 ، 10 ، 14 ، 18 ، ...</b>
+
+<div class="box green">
+<b>(أ) الأساس:</b> 10 − 6 = 4
+</div>
+
+<div class="box">
+<b>(ب) الحد العام:</b><br>
+حₙ = 6 + (ن − 1)×4
+</div>
+
+<div class="box green">
+<b>(ج) الحد العاشر:</b><br>
+ح₁₀ = 6 + 9×4 = 42
+</div>
+
+<div class="answer">ح₁₀ = 42</div>
+</div>
+
+<div class="q">
+<b>3) 5 ، 8 ، 11 ، 14 ، ... ، 62</b>
+
+<div class="box green">
+<b>طريقة سريعة:</b><br>
+(62 − 5) ÷ 3 = 19 → عدد الحدود = 20
+</div>
+
+<div class="answer">عدد الحدود = 20</div>
+</div>
+
+<div class="q">
+<b>4) متتالية حسابية: ح₄ = 9 ، ح₇ = 15</b>
+
+<div class="box green">
+<b>الأساس:</b><br>
+(15 − 9) ÷ (7 − 4) = 2
+</div>
+
+<div class="box">
+<b>الحد الأول:</b><br>
+9 = ح₁ + 3×2 → ح₁ = 3
+</div>
+
+<div class="box green">
+<b>ح₂₅:</b><br>
+3 + 24×2 = 51
+</div>
+
+<div class="answer">ح₂₅ = 51</div>
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- صفحة 20 -->
+<div class="page">
+<h2>📄 صفحة 20</h2>
+
+<div class="q">
+<b>5) حₙ = 20 − 3ن</b>
+
+<div class="box green">
+الأساس = −3
+</div>
+
+<div class="answer">الحد الأول = 17</div>
+</div>
+
+<div class="q">
+<b>6) (2س + 3) ، 3س ، (3س + 7)</b>
+
+<div class="box green">
+لأنها حسابية → الفرقين متساويين
+</div>
+
+<div class="box">
+3س − (2س + 3) = (3س + 7) − 3س
+</div>
+
+<div class="answer">س = 10</div>
+</div>
+
+<div class="q">
+<b>7) ظلل المتتاليات الحسابية</b>
+
+<div class="box green">
+✔ التي فرقها ثابت
+</div>
+</div>
+
+<div class="q">
+<b>8) 5 + 8 + 11 + ... + 77</b>
+
+<div class="box green">
+<b>طريقة مباشرة:</b><br>
+جₙ = n/2 (الأول + الأخير)
+</div>
+
+<div class="answer">المجموع = 1250</div>
+</div>
+
+<div class="q">
+<b>9) 25 ، 21 ، 17 ، 13 ، ...</b>
+
+<div class="box green">
+الأساس = −4
+</div>
+
+<div class="answer">ج₍20₎ = −550</div>
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- صفحة 21 -->
+<div class="page">
+<h2>📄 صفحة 21</h2>
+
+<div class="q">
+<b>10) ح₂ = 5 ، ح₇ = 20</b>
+
+<div class="box green">
+د = (20 − 5) ÷ 5 = 3
+</div>
+
+<div class="answer">ج₁₀ = 155</div>
+</div>
+
+<div class="q">
+<b>11) 17 − 14 − 11 − ... − 58</b>
+
+<div class="box green">
+الأساس = −3
+</div>
+
+<div class="answer">المجموع = −525</div>
+</div>
+
+<div class="q">
+<b>12) ح₁ = 8 ، ج₁₅ = 645</b>
+
+<div class="box green">
+استخدم قانون مجموع المتتالية
+</div>
+
+<div class="answer">د = 5</div>
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- صفحة 22 -->
+<div class="page">
+<h2>📄 صفحة 22</h2>
+
+<div class="q">
+<b>13) ح₁ = 20 ، ح₂ = 27 ، الأخير = 139</b>
+
+<div class="box green">
+د = 7
+</div>
+
+<div class="answer">المجموع = 1590</div>
+</div>
+
+<div class="q">
+<b>14) جₙ = 2ن² − ن</b>
+
+<div class="box green">
+الحد النوني = جₙ − ج₍ₙ₋₁₎
+</div>
+
+<div class="answer">د = 4</div>
+</div>
+
+<div class="q">
+<b>15) أقساط سيارة (100 ، 120 ، ...)</b>
+
+<div class="box green">
+متتالية حسابية
+</div>
+
+<div class="answer">آخر قسط = 280</div>
+</div>
+
+<div class="q">
+<b>16) متتالية هندسية: حₙ = 2×3ⁿ</b>
+
+<div class="answer">الحد السابع = 4374</div>
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- صفحة 23 -->
+<div class="page">
+<h2>📄 صفحة 23</h2>
+
+<div class="q">
+<b>17) ظلل المتتاليات الهندسية</b>
+<div class="box green">✔ النسبة ثابتة</div>
+</div>
+
+<div class="q">
+<b>18) 3 ، 15 ، 75 ، 375</b>
+<div class="answer">الحد التاسع = 1953125</div>
+</div>
+
+<div class="q">
+<b>19) ح₁ = 9 ، ح₄ = 72</b>
+<div class="answer">ح₆ = 288</div>
+</div>
+
+<div class="q">
+<b>20) ح₃ = 125 ، ح₅ = 5</b>
+<div class="answer">ح₁ = 5</div>
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- صفحة 24 -->
+<div class="page">
+<h2>📄 صفحة 24</h2>
+
+<div class="q">
+<b>21) ح₁ = 6 ، أساس = 3</b>
+<div class="answer">ح₆ = 1458</div>
+</div>
+
+<div class="q">
+<b>22) مجموع ح₂ + ح₅ = 90</b>
+<div class="answer">ح₁ = 6</div>
+</div>
+
+<div class="q">
+<b>23) ح₂ = 21 ، ح₄ = 129</b>
+<div class="answer">الأساس = 3</div>
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- صفحة 25 -->
+<div class="page">
+<h2>📄 صفحة 25</h2>
+
+<div class="q">
+<b>24) (س − 8) ، س ، 3س متتالية هندسية</b>
+<div class="answer">س = 4</div>
+</div>
+
+<div class="q">
+<b>25) 2 + 6 + 18 + 54 + ...</b>
+<div class="answer">مجموع أول 7 حدود = 2186</div>
+</div>
+
+<div class="q">
+<b>26) ح₁ = 5 ، أساس = 4</b>
+<div class="answer">مجموع أول 8 حدود = 87380</div>
+</div>
+
+<div class="q">
+<b>27) نمو طلاب بنسبة 4%</b>
+<div class="answer">عددهم في 2023 ≈ 25298</div>
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- صفحة 26 -->
+<div class="page">
+<h2>📄 صفحة 26</h2>
+
+<div class="q">
+<b>28) متتالية هندسية غير منتهية: 3 ، 1.2 ، 0.48</b>
+<div class="answer">المجموع إلى مالانهاية = 5</div>
+</div>
+
+<div class="q">
+<b>29) ظلل المتتاليات المتقاربة</b>
+<div class="box green">✔ |r| &lt; 1</div>
+</div>
+
+<div class="q">
+<b>30) ح₁ = 20 ، ح₅ = 1.25</b>
+<div class="answer">المجموع إلى مالانهاية = 25</div>
+</div>
+
+<div class="q">
+<b>31) ح₁ = 1 ، مجموعها = 1.5</b>
+<div class="answer">مجموع أول 4 حدود = 1.25</div>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
